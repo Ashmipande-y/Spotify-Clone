@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+<body>
+    <div class="main">
+        
+
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity:1;">
+                    <i class="fa-solid fa-house"></i>
+
+                    <a href="#" style="background-color:#121212;">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    
+                    <a href="#" style="background-color:#121212;">Search</a>
+                </div>
+            </div>
+            <div class="library" style="background-color:#121212;">
+                <div class="options" style="background-color:#121212;">
+                    <div class="lib-option nav-option" style="background-color:#121212;">
+                        <img src="./assets/library_icon.png" style="background-color:#121212;"> 
+                        
+                        <a href="#" style="background-color:#121212;">Your Library</a>
+                    </div>
+                    <div class="icons" style="background-color:#121212;">
+                        <i class="fa-solid fa-plus"style="background-color:#121212;" ></i>
+                        <i class="fa-solid fa-arrow-right"style="background-color:#121212;"></i>
+                    </div>
+
+                </div>
+                <div class="lib-box" style="background-color:#121212;">
+                    <div class="box">
+                        
+                        <p class="box-p1" style="font-weight:600;font-family:'Monstserrat',sans-serif;font-weight:400">Create your first playlist</p>
+                        <p class="box-p2">It's easy,we'll help you</p>
+                    
+                        <button class="badge" style="background-color: white;color:black;font-weight:bold;font-family:Arial,sans-serif;">Create playlist</button>
+                    </div>
+                </div>
+                <div class="lib-box" style="background-color:#121212;">
+                    
+                        <div class="box">
+                        <p class="box-p1" style="font-weight:600;font-family:'Monstserrat',sans-serif;font-weight:400;">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                    
+                        <button class="badge" style="background-color: white;color:black;font-weight:bold;font-family:Arial,sans-serif;">Browse Podcasts</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav" style="background-color:#121212;">
+                <div class="sticky-nav-icons" style="background-color:#121212;">
+                    <img src="./assets/backward_icon.png">
+                    <img src="./assets/forward_icon.png" class="hide">
+
+                </div>
+                <div class="sticky-nav-options" style="background-color:#121212;">
+                    <button class="badge nav-item hide" style="color:black;background-color:white;font-family: system-ui;font-weight:600;">Explore Premium</button>
+                    <button class="badge nav-item dark-badge" style="color:white;background-color:black;font-family: system-ui;font-weight:600;border:4px solid black;"><i class="fa-regular fa-circle-down" style="color:white;background-color:black;justify-content:center;margin-right:5px; "></i>Install App</button>
+                    <i class="fa-regular fa-user nav items"></i>
+
+
+                </div>
+                
+            </div>
+            <div class="cards" style="background-color:#121212;width: 160px;margin-left:4px;margin-top:4px;">
+                <h2 style="background-color:#121212;margin-bottom:25px;font-family:Teko;font-size:21px">Recently Played</h2>
+                <div class="cards-container" style="background-color:#232323;">
+                    <div class="card">
+                        
+
+                        <img src="./assets/card1img.jpeg" style="background-color:#232323;margin:10px" class="card-img" >
+                        <p class="card-title" style="background-color:#232323;margin-left:10px;" >Top 50 - Global</p>
+                        <p class="card-info" style="background-color:#232323;margin-left:10px;">Your daily updates of the most played tracks.......</p>
+                       
+
+                    </div>
+
+                </div>
+
+            </div>
+        <br>
+        <br>
+        <h2 style="background-color:#121212;margin-bottom:25px;font-family:Teko;font-size:21px">Trending now near you</h2>
+
+            <div class="cards" style="background-color:#121212;width: 1000px;margin-left:4px;margin-top:2px;margin-right:8px;">
+            
+            
+                <div class="cards-container1" style="background-color:#121212;">
+                    <div class="card1">
+                    
+                        
+
+                        <img src="./assets/card2img.jpeg" style="background-color:#232323;" class="card-img" >
+                        <p class="card-title" style="background-color:#232323;" >Old Songs</p>
+                        <p class="card-info" style="background-color:#232323;">Play your favorite cinema songs.......</p>
+                        <br>
+                        <br>
+                    </div>
+
+                    
+                    <div class="card1" style="margin-left:40px;">
+                       
+
+                        <img src="./assets/card3img.jpeg" style="background-color:#232323;" class="card-img" >
+                        <p class="card-title" style="background-color:#232323;">Rahat Fateh Ali Khan</p>
+                        <p class="card-info" style="background-color:#232323;">Take the glimpse of kawali and raaga.......</p>
+                        <br>
+                    
+                    </div>
+
+                    <div class="card1" style="margin-left:40px;">
+                        <img src="./assets/card4img.jpeg" style="background-color:#232323;" class="card-img" >
+                        <p class="card-title" style="background-color:#232323;" >Southern Vibes</p>
+                        <p class="card-info" style="background-color:#232323;">Listen to your favorite southern songs.......</p>
+                       
+                    </div>
+                    </div>
+                    <br>
+                    <br>
+                <h2 style="background-color:#121212;margin-bottom:25px;font-family:Teko;font-size:21px;margin-top:8px;">Featured Charts</h2>
+
+                
+                <div class="cards" style="background-color:#121212;width: 1000px;margin-left:4px;margin-top:2px;margin-right:8px;">
+
+                    <div class="cards-container1" style="background-color:#121212;">
+
+                    
+                        
+                       
+                    
+                    
+
+                    
+                    <div class="card1" style="margin-left:30px;">
+                        <img src="./assets/card5img.jpeg" style="background-color:#232323;" class="card-img" >
+                        <p class="card-title" style="background-color:#232323;" >Top 50 - Global</p>
+                        <p class="card-info" style="background-color:#232323;">Your daily updates of the most played tracks.......</p>
+                       
+                    </div>
+                    <div class="card1" style="margin-left:30px;">
+                        <img src="./assets/card6img.jpeg" style="background-color:#232323;" class="card-img" >
+                        <p class="card-title" style="background-color:#232323;" >Top 50 - Indian Songs</p>
+                        <p class="card-info" style="background-color:#232323;">Your daily updates of the most played Indian tracks.......</p>
+                       
+                    </div>
+                    <div class="card1" style="margin-left:30px;">
+                        <img src="./assets/card1img.jpeg" style="background-color:#232323;" class="card-img" >
+                        <p class="card-title" style="background-color:#232323;" >Top 50 - Global</p>
+                        <p class="card-info" style="background-color:#232323;">Your daily updates of the most played tracks.......</p>
+                       
+                    </div>
+                </div>
+            </div>
+                    
+
+                
+            </div>
+            <div class="footer" style="background-color:#121212">
+                <div class="line"></div>
+            </div>
+
+
+        </div>
+        
+        <div class="music-player">
+            <div class="album"></div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" class="player-control-icon" style="height:2rem;opacity:1;">
+                    <img src="./assets/player_icon4.png" class="player-control-icon">
+                    <img src="./assets/player_icon5.png" class="player-control-icon">
+
+                </div>
+                <div class="player-controls">
+                    <span class="curr-time">00.00</span>
+                    <input type="range" min="0" max="100" class="progress-bar">
+                    <span class="tot-time">04.44</span>
+
+                </div>
+
+            </div>
+            <div class="controls"></div>
+        </div>
+        
+        
+
+    </div>
+    
+</body>
+</html>
